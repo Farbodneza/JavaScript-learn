@@ -16,7 +16,7 @@ console.log(interestRate);
 //let lastName = 'Nezafati';
 //let age = 20;
 let person = {
-    name: 'Farbpd',
+    name: 'Farbod',
     lastName: 'Nezafati',
     age: 20
 };
@@ -29,3 +29,11 @@ person['age'] = 16;
 
 console.log(person);
 console.log(person.name);
+
+
+
+function greet(name, lastName) {
+    console.log('Hello ' + name + ' ' + lastName);
+}
+greet('john', 'Smith');
+greet('Farbod', 'Nezafati');
